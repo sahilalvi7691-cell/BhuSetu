@@ -16,7 +16,7 @@ Recommended duration: 7-10 minutes.
 ### Start Backend
 
 Open PowerShell Terminal 1 from the project root:
-1. cd D:\coding_zone\BhuSetu\t-hacks-9.0\t-hacks-90-geometrix-sentinel\backend
+1. go to your backend directory
 2. python -m pip install virtualenv
 3. virtualenv .venv
 4. .\.venv\Scripts\Activate.ps1
