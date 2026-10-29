@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Dropdown entry animation */
+@keyframes dropdown-in {
+	0% { opacity: 0; transform: translateY(-6px) scale(0.98); }
+	100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+.animate-dropdown {
+	animation: dropdown-in 180ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Minor utility for smoother transforms */
+.will-change-transform {
+	will-change: transform, opacity;
+}
+
+body{
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+
+/* Design system: card */
+.card {
+	@apply bg-white rounded-2xl border border-slate-200/80 shadow-sm p-4;
+}
+.card:hover { @apply -translate-y-1 shadow-lg }
+.card:active { @apply translate-y-0 shadow-md }
+
+/* Page container */
+.page-shell {
+	@apply min-h-screen bg-slate-50 pt-5 pb-8;
+}
+.page-container {
+	@apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}

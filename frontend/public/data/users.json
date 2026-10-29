@@ -1,0 +1,250 @@
+[
+  {
+    "id": "USR-1001",
+    "name": "Aarav Sharma",
+    "employeeId": "PO-014",
+    "role": "Project Officer",
+    "department": "Project Management Cell",
+    "district": "Lucknow",
+    "jurisdiction": "District Level",
+    "assignedProjects": 12,
+    "status": "Active",
+    "lastLogin": "2026-09-11 09:45 AM",
+    "email": "aarav.sharma@bhusetu.gov.in",
+    "phone": "+91 98765 43210",
+    "address": "12 Ashok Vihar, Lucknow",
+    "gender": "Male",
+    "dateOfBirth": "1988-03-14",
+    "joiningDate": "2022-06-01",
+    "manager": "Sahil Alvi",
+    "permissions": ["Project View", "Parcel Review", "Workflow Update"],
+    "recentActivity": [
+      { "title": "Project status updated", "detail": "BhuSetu-Project-204 moved to active review", "time": "2 hours ago" },
+      { "title": "Site inspection logged", "detail": "Field verification completed for Sector 7", "time": "Yesterday" },
+      { "title": "Document approval", "detail": "Land award draft reviewed and approved", "time": "3 days ago" }
+    ],
+    "account": {
+      "createdAt": "2022-06-01",
+      "lastPasswordReset": "2026-08-21",
+      "securityLevel": "Standard"
+    },
+    "profileImage": "/images/logo.png"
+  },
+  {
+    "id": "USR-1002",
+    "name": "Naina Verma",
+    "employeeId": "LAO-021",
+    "role": "Land Acquisition Officer",
+    "department": "Land Acquisition Office",
+    "district": "Kanpur",
+    "jurisdiction": "Tehsil Level",
+    "assignedProjects": 9,
+    "status": "Active",
+    "lastLogin": "2026-09-10 08:15 AM",
+    "email": "naina.verma@bhusetu.gov.in",
+    "phone": "+91 99887 66554",
+    "address": "45 Civil Lines, Kanpur",
+    "gender": "Female",
+    "dateOfBirth": "1991-08-06",
+    "joiningDate": "2021-11-18",
+    "manager": "Ritu Sinha",
+    "permissions": ["Parcel Mapping", "Legal Review", "Compensation Query"],
+    "recentActivity": [
+      { "title": "Compensation proposal reviewed", "detail": "Status updated for Plot 17-A", "time": "45 minutes ago" },
+      { "title": "Document upload", "detail": "Survey boundary files uploaded", "time": "1 day ago" },
+      { "title": "Site visit scheduled", "detail": "Field coordination for district route", "time": "3 days ago" }
+    ],
+    "account": {
+      "createdAt": "2021-11-18",
+      "lastPasswordReset": "2026-09-02",
+      "securityLevel": "Elevated"
+    },
+    "profileImage": "/images/logo.png"
+  },
+  {
+    "id": "USR-1003",
+    "name": "Sahil Alvi",
+    "employeeId": "NO-001",
+    "role": "Nodal Officer",
+    "department": "Land Acquisition Department",
+    "district": "Agra",
+    "jurisdiction": "State Level",
+    "assignedProjects": 32,
+    "status": "Active",
+    "lastLogin": "2026-09-11 07:58 AM",
+    "email": "sahil.alvi@bhusetu.gov.in",
+    "phone": "+91 98765 11223",
+    "address": "Delhi Secretariat, New Delhi",
+    "gender": "Male",
+    "dateOfBirth": "1985-02-11",
+    "joiningDate": "2020-05-15",
+    "manager": "State Administration",
+    "permissions": ["All Project Access", "Audit Review", "GIS Oversight"],
+    "recentActivity": [
+      { "title": "Portfolio briefing shared", "detail": "Monthly district update circulated", "time": "1 hour ago" },
+      { "title": "Risk review", "detail": "Pending compensation cases flagged", "time": "6 hours ago" },
+      { "title": "Officer reassignment", "detail": "LAO team redistributed for Zone 3", "time": "2 days ago" }
+    ],
+    "account": {
+      "createdAt": "2020-05-15",
+      "lastPasswordReset": "2026-09-01",
+      "securityLevel": "High"
+    },
+    "profileImage": "/images/logo.png"
+  },
+  {
+    "id": "USR-1004",
+    "name": "Priya Nair",
+    "employeeId": "PO-033",
+    "role": "Project Officer",
+    "department": "Infrastructure Coordination",
+    "district": "Varanasi",
+    "jurisdiction": "District Level",
+    "assignedProjects": 14,
+    "status": "Inactive",
+    "lastLogin": "2026-08-23 04:22 PM",
+    "email": "priya.nair@bhusetu.gov.in",
+    "phone": "+91 97654 34567",
+    "address": "18 Gola Road, Varanasi",
+    "gender": "Female",
+    "dateOfBirth": "1993-12-08",
+    "joiningDate": "2023-02-05",
+    "manager": "Sahil Alvi",
+    "permissions": ["Project View", "Progress Tracking"],
+    "recentActivity": [
+      { "title": "Account deactivated", "detail": "Pending KYC review", "time": "2 weeks ago" },
+      { "title": "Access revoked", "detail": "Restricted by admin policy", "time": "3 weeks ago" },
+      { "title": "Logon attempt failed", "detail": "Multiple failed sign-in attempts", "time": "1 month ago" }
+    ],
+    "account": {
+      "createdAt": "2023-02-05",
+      "lastPasswordReset": "2026-07-12",
+      "securityLevel": "Standard"
+    },
+    "profileImage": "/images/logo.png"
+  },
+  {
+    "id": "USR-1005",
+    "name": "Rohit Mehta",
+    "employeeId": "LAO-104",
+    "role": "Land Acquisition Officer",
+    "department": "Acquisition Planning",
+    "district": "Patna",
+    "jurisdiction": "District Level",
+    "assignedProjects": 7,
+    "status": "Active",
+    "lastLogin": "2026-09-11 10:10 AM",
+    "email": "rohit.mehta@bhusetu.gov.in",
+    "phone": "+91 90012 33218",
+    "address": "72 Boring Road, Patna",
+    "gender": "Male",
+    "dateOfBirth": "1989-06-24",
+    "joiningDate": "2021-09-10",
+    "manager": "Ananya Bose",
+    "permissions": ["Parcel Documentation", "Field Verification", "Claim Review"],
+    "recentActivity": [
+      { "title": "Field report submitted", "detail": "Parcel survey report added to system", "time": "35 minutes ago" },
+      { "title": "Boundary check", "detail": "Route mismatch reported and resolved", "time": "Yesterday" },
+      { "title": "Repair request", "detail": "Verification schedule updated", "time": "4 days ago" }
+    ],
+    "account": {
+      "createdAt": "2021-09-10",
+      "lastPasswordReset": "2026-08-18",
+      "securityLevel": "Elevated"
+    },
+    "profileImage": "/images/logo.png"
+  },
+  {
+    "id": "USR-1006",
+    "name": "Ishita Rao",
+    "employeeId": "NO-028",
+    "role": "Nodal Officer",
+    "department": "District Governance Unit",
+    "district": "Bhopal",
+    "jurisdiction": "State Level",
+    "assignedProjects": 21,
+    "status": "Active",
+    "lastLogin": "2026-09-10 06:55 PM",
+    "email": "ishita.rao@bhusetu.gov.in",
+    "phone": "+91 99444 33821",
+    "address": "91 Gandhi Nagar, Bhopal",
+    "gender": "Female",
+    "dateOfBirth": "1987-01-22",
+    "joiningDate": "2020-12-04",
+    "manager": "State Administration",
+    "permissions": ["Dashboard Access", "Assignment Control", "Monitoring"],
+    "recentActivity": [
+      { "title": "Assignment dashboard refreshed", "detail": "New allocation approved for district block", "time": "2 hours ago" },
+      { "title": "Status note updated", "detail": "Nodal meeting summary shared", "time": "5 hours ago" },
+      { "title": "Escalation resolved", "detail": "Pending item re-assigned to regional team", "time": "1 week ago" }
+    ],
+    "account": {
+      "createdAt": "2020-12-04",
+      "lastPasswordReset": "2026-08-30",
+      "securityLevel": "High"
+    },
+    "profileImage": "/images/logo.png"
+  },
+  {
+    "id": "USR-1007",
+    "name": "Akash Khanna",
+    "employeeId": "SA-120",
+    "role": "System Admin",
+    "department": "Digital Governance Cell",
+    "district": "Delhi",
+    "jurisdiction": "All States",
+    "assignedProjects": 48,
+    "status": "Active",
+    "lastLogin": "2026-09-11 06:20 AM",
+    "email": "akash.khanna@bhusetu.gov.in",
+    "phone": "+91 90000 00009",
+    "address": "14 Sector 16, Noida",
+    "gender": "Male",
+    "dateOfBirth": "1986-04-30",
+    "joiningDate": "2019-08-10",
+    "manager": "Chief Secretary",
+    "permissions": ["User Access", "System Configuration", "Audit Logs"],
+    "recentActivity": [
+      { "title": "System audit completed", "detail": "Platform activity reviewed successfully", "time": "30 minutes ago" },
+      { "title": "Role update", "detail": "PO access policy changed for district teams", "time": "Yesterday" },
+      { "title": "Security patch", "detail": "Role-based access updated across states", "time": "1 week ago" }
+    ],
+    "account": {
+      "createdAt": "2019-08-10",
+      "lastPasswordReset": "2026-09-05",
+      "securityLevel": "Critical"
+    },
+    "profileImage": "/images/logo.png"
+  },
+  {
+    "id": "USR-1008",
+    "name": "Divya Kapoor",
+    "employeeId": "PO-045",
+    "role": "Project Officer",
+    "department": "Regional Project Unit",
+    "district": "Jaipur",
+    "jurisdiction": "District Level",
+    "assignedProjects": 11,
+    "status": "Active",
+    "lastLogin": "2026-09-11 11:15 AM",
+    "email": "divya.kapoor@bhusetu.gov.in",
+    "phone": "+91 91122 77889",
+    "address": "71 Malviya Nagar, Jaipur",
+    "gender": "Female",
+    "dateOfBirth": "1990-09-17",
+    "joiningDate": "2022-03-11",
+    "manager": "Ishita Rao",
+    "permissions": ["Project View", "Implementation Tracking", "Cost Check"],
+    "recentActivity": [
+      { "title": "Site milestone reached", "detail": "Phase 2 benchmark approved", "time": "1 hour ago" },
+      { "title": "Stakeholder update", "detail": "Progress note shared with district office", "time": "2 days ago" },
+      { "title": "Issue log", "detail": "One land parcel flagged for follow-up", "time": "4 days ago" }
+    ],
+    "account": {
+      "createdAt": "2022-03-11",
+      "lastPasswordReset": "2026-08-28",
+      "securityLevel": "Standard"
+    },
+    "profileImage": "/images/logo.png"
+  }
+]

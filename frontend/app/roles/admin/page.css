@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  --sidebar-width: 16rem;
+  /*256px / w-64*/
+  --sidebar-collapsed-width: 5rem;
+  /*80px / w-20*/
+}
+
+html {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #eef2f7;
+  user-select: none;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slideIn {
+  animation: slideIn 0.45s ease-out forwards;
+}
+
+@keyframes admin-modal-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes admin-modal-content-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.admin-modal-header,
+.admin-modal-footer {
+  animation: admin-modal-content-in 260ms ease-out both;
+}
+
+.admin-modal-section {
+  animation: admin-modal-content-in 300ms ease-out both;
+}
+
+.admin-modal-section:nth-child(1) { animation-delay: 40ms; }
+.admin-modal-section:nth-child(2) { animation-delay: 80ms; }
+.admin-modal-section:nth-child(3) { animation-delay: 120ms; }
+.admin-modal-section:nth-child(4) { animation-delay: 160ms; }
+.admin-modal-section:nth-child(5) { animation-delay: 200ms; }
+.admin-modal-section:nth-child(6) { animation-delay: 240ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  .admin-modal-header,
+  .admin-modal-footer,
+  .admin-modal-section {
+    animation: none;
+  }
+}

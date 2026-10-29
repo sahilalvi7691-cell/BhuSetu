@@ -1,0 +1,149 @@
+.shell {
+  --sa-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  animation: pageEnter 220ms var(--sa-ease) both;
+}
+
+.shell :global(.rounded-2xl) {
+  transition: transform 180ms var(--sa-ease), box-shadow 180ms var(--sa-ease), border-color 180ms ease, background-color 180ms ease;
+}
+
+.shell :global(.rounded-2xl:hover) {
+  border-color: rgb(203 213 225);
+}
+
+.shell :global(button),
+.shell :global(a) {
+  transition: transform 160ms var(--sa-ease), box-shadow 160ms ease, background-color 160ms ease, border-color 160ms ease, color 160ms ease, opacity 160ms ease;
+}
+
+.shell :global(button:not(:disabled):hover),
+.shell :global(a:hover) {
+  transform: translateY(-1px);
+}
+
+.shell :global(button:not(:disabled):active),
+.shell :global(a:active) {
+  transform: translateY(0) scale(0.98);
+}
+
+.shell :global(input),
+.shell :global(select),
+.shell :global(textarea) {
+  transition: border-color 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
+}
+
+.shell :global(input:focus),
+.shell :global(select:focus),
+.shell :global(textarea:focus) {
+  box-shadow: 0 0 0 3px rgb(14 165 233 / 0.12);
+}
+
+.shell :global(tbody tr) {
+  transition: background-color 150ms ease, box-shadow 150ms ease;
+}
+
+.shell :global(tbody tr:hover) {
+  box-shadow: inset 3px 0 0 rgb(14 165 233 / 0.55);
+}
+
+.shell :global(.fixed.inset-0) {
+  animation: overlayEnter 160ms ease both;
+}
+
+.shell :global(.fixed.inset-0 > div) {
+  animation: modalEnter 200ms var(--sa-ease) both;
+}
+
+.gaugeGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.gaugeCard {
+  display: grid;
+  place-items: center;
+  min-height: 190px;
+  padding: 1rem;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  border-radius: 1rem;
+  background: rgba(248, 250, 252, 0.8);
+}
+
+.gauge {
+  display: grid;
+  place-items: center;
+  width: 142px;
+  height: 142px;
+  border-radius: 50%;
+  background: conic-gradient(var(--gauge-color) var(--gauge-value), #e2e8f0 0);
+  transition: background 220ms ease, transform 220ms ease;
+}
+
+.gauge:hover {
+  transform: scale(1.03);
+}
+
+.gauge > div {
+  display: grid;
+  place-items: center;
+  width: 106px;
+  height: 106px;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+}
+
+.gauge strong {
+  color: #0f172a;
+  font-size: 1.45rem;
+}
+
+.gauge span {
+  max-width: 78px;
+  color: #64748b;
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+@media (max-width: 700px) {
+  .gaugeGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes overlayEnter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes modalEnter {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shell,
+  .shell :global(*) {
+    animation-duration: 1ms !important;
+    transition-duration: 1ms !important;
+    scroll-behavior: auto !important;
+  }
+}

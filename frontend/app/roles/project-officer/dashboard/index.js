@@ -1,0 +1,5 @@
+export { default as KPI } from './kpi'
+export { default as Gis } from './gis'
+export { default as MyProjects } from './my-projects'
+export {default as NewProjects} from './new-projects'
+export {default as RecentActivity} from './recent-activity'

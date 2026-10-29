@@ -1,0 +1,1 @@
+import MainContent from "../../component/layout/mainContent";
